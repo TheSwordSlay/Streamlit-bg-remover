@@ -5,7 +5,6 @@ import numpy as np
 import io
 
 st.title("Simple Background remover :lower_left_paintbrush:")
-st.caption("Also checkout my github account for other projects: https://github.com/TheSwordSlay")
 
 if 'processed_image' not in st.session_state:
     st.session_state.processed_image = None
