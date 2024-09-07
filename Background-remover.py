@@ -32,6 +32,6 @@ if st.session_state.processed_image is not None:
     st.download_button(
         label="Download Background Removed Image",
         data=st.session_state.processed_image,
-        file_name="extracted.png",
+        file_name="bg-removed.png",
         mime="image/png"
     )
